@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\usepackage{amssymb,mathtools,float}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\usepackage{appendixnumberbeamer} 
+\usepackage[longnamesfirst, sort]{natbib}
+\bibliographystyle{elsarticle-harv}
+
+\newcommand{\R}{\mathbb{R}}
+
+\title{Project Title}
+\subtitle{Subtitle}
+\institute{ECON1680}
+\author{{Author Name}}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{Overview} 
+    \begin{itemize}
+        \item \textbf{Motivation:}
+        \item \textbf{Research Question:}
+        \item \textbf{Findings:}
+    \end{itemize}
+\end{frame}
+
+\section{Data}
+
+\begin{frame}{Data Description}
+\begin{itemize}
+    \item \textbf{Source:}
+    \item \textbf{Summary:}
+\end{itemize}
+\end{frame}
+
+
+\section{Method}
+
+\begin{frame}{Methodology}
+	
+\end{frame}
+
+\section{Results}
+
+\begin{frame}{Results}
+	
+\end{frame}
+
+\section{Conclusion}
+
+\begin{frame}{Conclusion}
+	
+\end{frame}
+
+\end{document}
